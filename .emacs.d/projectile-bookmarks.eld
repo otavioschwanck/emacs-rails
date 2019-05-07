@@ -1,1 +1,0 @@
-("~/Projetos/grafeno-pagamentos/" "~/Projetos/ecovida_opac/" "~/Documentos/cinnamon-spices-desklets/")

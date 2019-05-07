@@ -29,10 +29,10 @@
  '(cua-normal-cursor-color "#839496")
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
- '(custom-enabled-themes (quote (sanityinc-tomorrow-blue)))
+ '(custom-enabled-themes (quote (doom-molokai)))
  '(custom-safe-themes
    (quote
-    ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "1d2f406a342499f0098f9388b87d05ec9b28ccb12ca548f4f5fa80ae368235b6" "bd7b7c5df1174796deefce5debc2d976b264585d51852c962362be83932873d9" "1436d643b98844555d56c59c74004eb158dc85fc55d2e7205f8d9b8c860e177f" "585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739" "8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a" "a22f40b63f9bc0a69ebc8ba4fbc6b452a4e3f84b80590ba0a92b4ff599e53ad0" "274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default)))
+    ("100e7c5956d7bb3fd0eebff57fde6de8f3b9fafa056a2519f169f85199cc1c96" "6d589ac0e52375d311afaa745205abb6ccb3b21f6ba037104d71111e7e76a3fc" "d1b4990bd599f5e2186c3f75769a2c5334063e9e541e37514942c27975700370" "8aca557e9a17174d8f847fb02870cb2bb67f3b6e808e46c0e54a44e3e18e1020" "93a0885d5f46d2aeac12bf6be1754faa7d5e28b27926b8aa812840fe7d0b7983" "fd944f09d4d0c4d4a3c82bd7b3360f17e3ada8adf29f28199d09308ba01cc092" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "1d2f406a342499f0098f9388b87d05ec9b28ccb12ca548f4f5fa80ae368235b6" "bd7b7c5df1174796deefce5debc2d976b264585d51852c962362be83932873d9" "1436d643b98844555d56c59c74004eb158dc85fc55d2e7205f8d9b8c860e177f" "585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739" "8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a" "a22f40b63f9bc0a69ebc8ba4fbc6b452a4e3f84b80590ba0a92b4ff599e53ad0" "274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default)))
  '(display-battery-mode t)
  '(fci-rule-color "#373b41")
  '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
@@ -87,7 +87,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (color-theme-sanityinc-tomorrow ace-jump-mode rbenv helm-ag linum-relative git-gutter yasnippet-classic-snippets magit multiple-cursors textmate-to-yas web-mode exec-path-from-shell yaml-mode company company-mode robe flycheck expand-region pacmacs yasnippet-snippets yasnippet rspec-mode ruby-end helm-projectile helm projectile projectile-rails)))
+    (doom-themes solarized-theme color-theme-sanityinc-tomorrow ace-jump-mode rbenv helm-ag linum-relative git-gutter yasnippet-classic-snippets magit multiple-cursors textmate-to-yas web-mode exec-path-from-shell yaml-mode company company-mode robe flycheck expand-region pacmacs yasnippet-snippets yasnippet rspec-mode ruby-end helm-projectile helm projectile projectile-rails)))
  '(pdf-view-midnight-colors (quote ("#b2b2b2" . "#292b2e")))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
@@ -185,8 +185,8 @@
 ;;; Company-mode
 
 (add-hook 'after-init-hook 'global-company-mode)
-(defvar company-dabbrev-downcase 0)
-(defvar company-idle-delay 0)
+(setq company-dabbrev-downcase 0)
+(setq company-idle-delay 0)
 
 ;; With this code, yasnippet will expand the snippet if company didn't complete the word
 ;; replace company-complete-common with company-complete if you're using it
@@ -217,7 +217,7 @@
 (require 'ruby-end)
 
 (setq ruby-insert-encoding-magic-comment nil)
-(defvar enh-ruby-add-encoding-comment-on-save nil)
+(setq enh-ruby-add-encoding-comment-on-save nil)
 
 (require 'rspec-mode)
 
@@ -226,6 +226,8 @@
 
 (setq ruby-use-smie t)
 (setq ruby-align-chained-calls t)
+(setq rspec-use-bundler-when-possible t)
+(setq rspec-use-spring-when-possible nil)
 
 ;;; Stop Locks and Backups
 
@@ -240,7 +242,8 @@
 ;;; Gui Options
 
 (tool-bar-mode -1)
-(defvar nihibit-startup-screen t)
+(setq inhibit-startup-screen t)
+
 
 ;;; Personal functions
 
@@ -287,7 +290,7 @@
 
 (defun my-web-mode-hook ()
   "Hooks for Web mode."
-  (defvar web-mode-markup-indent-offset 2)
+  (setq web-mode-markup-indent-offset 2)
 
   )
 (add-hook 'web-mode-hook  'my-web-mode-hook)
@@ -325,6 +328,11 @@
 
 ;;; JS
 (setq js-indent-level 2)
+
+;;; SCSS
+(add-hook 'scss-mode-hook
+	  '(lambda()
+	     (setq tab-width 2)))
 
 ;;; We Want accents
 ;; if dont work, run your emacs with: "env XMODIFIERS= emacs"
