@@ -87,7 +87,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (doom-themes solarized-theme color-theme-sanityinc-tomorrow ace-jump-mode rbenv helm-ag linum-relative git-gutter yasnippet-classic-snippets magit multiple-cursors textmate-to-yas web-mode exec-path-from-shell yaml-mode company company-mode robe flycheck expand-region pacmacs yasnippet-snippets yasnippet rspec-mode ruby-end helm-projectile helm projectile projectile-rails)))
+    (swiper ivy doom-themes solarized-theme color-theme-sanityinc-tomorrow ace-jump-mode rbenv helm-ag linum-relative git-gutter yasnippet-classic-snippets magit multiple-cursors textmate-to-yas web-mode exec-path-from-shell yaml-mode company company-mode robe flycheck expand-region pacmacs yasnippet-snippets yasnippet rspec-mode ruby-end helm-projectile helm projectile projectile-rails)))
  '(pdf-view-midnight-colors (quote ("#b2b2b2" . "#292b2e")))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
@@ -242,6 +242,7 @@
 ;;; Gui Options
 
 (tool-bar-mode -1)
+(menu-bar-mode -1)
 (setq inhibit-startup-screen t)
 
 
@@ -331,8 +332,8 @@
 
 ;;; SCSS
 (add-hook 'scss-mode-hook
-	  '(lambda()
-	     (setq tab-width 2)))
+          '(lambda()
+             (setq tab-width 2)))
 
 ;;; We Want accents
 ;; if dont work, run your emacs with: "env XMODIFIERS= emacs"
@@ -340,3 +341,4 @@
 (set-default-coding-systems 'utf-8)
 
 ;;; .emacs ends here
+(put 'upcase-region 'disabled nil)

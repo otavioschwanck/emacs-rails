@@ -5,11 +5,15 @@
       '(
 	dabbrev-expand
 	forward-sentence
+	menu-bar-options-save
+	menu-set-font
 	ruby-end-space
+	yaml-electric-bar-and-angle
 	))
 
 (setq mc/cmds-to-run-once
       '(
 	backward-sentence
+	indent-for-tab-command
 	yaml-electric-backspace
 	))
