@@ -15,5 +15,6 @@
       '(
 	backward-sentence
 	indent-for-tab-command
+	mouse-set-region
 	yaml-electric-backspace
 	))
