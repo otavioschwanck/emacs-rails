@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <19/05/04 18:04:00 /home/otavio/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <19/05/24 17:42:15 /home/otavio/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -21,13 +21,14 @@
   ("perl-cwd-realpath" t)
   ("perl" "\\perl"))
  ((tramp-file-name "sudo" "root" nil "otavio-solus" nil nil nil)
-  ("uname" "Linux 5.0.7-114.current")
+  ("uname" "Linux 5.0.16-116.current")
   ("locale" "LC_ALL=en_US.utf8")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin"))
   ("remote-shell" "/bin/sh")
   ("file-exists" "test -e")
+  ("~root" "/root")
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
@@ -36,9 +37,6 @@
   ("stat" "env QUOTING_STYLE=locale \\stat")
   ("id" "/usr/bin/id")
   ("gid-integer" 0)
-  ("ls" "/bin/ls --color=never")
-  ("ls-quoting-style" t)
-  ("ls-dired" t)
   ("gid-string" "root")
   ("uid-integer" 0)
-  ("~root" "/root")))
+  ("git" "\\git")))

@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
 	dabbrev-expand
+	end-of-buffer
 	forward-sentence
 	menu-bar-options-save
 	menu-set-font
