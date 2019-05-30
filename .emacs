@@ -11,7 +11,6 @@
 
 (put 'dired-find-alternate-file 'disabled nil)
 
-(set-frame-font "Inconsolata Bold 13" nil t)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -91,7 +90,7 @@
  '(objed-cursor-color "#e74c3c")
  '(package-selected-packages
    (quote
-    (darktooth-theme zencoding-mode swiper ivy doom-themes solarized-theme color-theme-sanityinc-tomorrow ace-jump-mode rbenv helm-ag linum-relative git-gutter yasnippet-classic-snippets magit multiple-cursors textmate-to-yas web-mode exec-path-from-shell yaml-mode company company-mode robe flycheck expand-region pacmacs yasnippet-snippets yasnippet rspec-mode ruby-end helm-projectile helm projectile projectile-rails)))
+    (avy ace-window darktooth-theme zencoding-mode swiper ivy doom-themes solarized-theme color-theme-sanityinc-tomorrow rbenv helm-ag linum-relative git-gutter yasnippet-classic-snippets magit multiple-cursors textmate-to-yas web-mode exec-path-from-shell yaml-mode company company-mode robe flycheck expand-region pacmacs yasnippet-snippets yasnippet rspec-mode ruby-end helm-projectile helm projectile projectile-rails)))
  '(pdf-view-midnight-colors (quote ("#b2b2b2" . "#292b2e")))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
@@ -151,8 +150,7 @@
 
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
-
-(helm-mode 1)
+(global-set-key (kbd "C-x b") #'helm-buffers-list)
 
 ;;; Flycheck
 
@@ -275,7 +273,6 @@
 (global-set-key (kbd "M-[") (kbd "M-{"))
 (global-set-key (kbd "C-x C-j") 'join-line)
 (global-set-key (kbd "C-=") 'iwb)
-(global-set-key [C-tab] (kbd "C-x o"))
 (global-set-key (kbd "C-+") 'delete-trailing-whitespace)
 
 ;; for keyboard with use / in Alt-gt + w
@@ -339,8 +336,12 @@
 (require 'rbenv)
 (global-rbenv-mode)
 
-;;; Ace Jump Mode
-(define-key global-map (kbd "C-c C-c") 'ace-jump-mode)
+;;; Avy rulez
+
+(define-key global-map (kbd "C-:") 'avy-goto-char)
+(global-set-key (kbd "M-g f") 'avy-goto-line)
+(global-set-key (kbd "M-g w") 'avy-goto-word-1)
+(global-set-key (kbd "M-g e") 'avy-goto-word-0)
 
 ;;; JS
 (setq js-indent-level 2)
@@ -363,5 +364,8 @@
 
 ;;; .arb is ruby!
 (add-to-list 'auto-mode-alist '("\\.arb\\'"          . ruby-mode))
+
+;;; Ace Window
+(global-set-key (kbd "M-o") 'ace-window)
 
 ;;; .emacs ends here
